@@ -1,0 +1,54 @@
+server:
+  address: ${SERVER_ADDRESS:127.0.0.1}
+  port: ${SERVER_PORT:8090}
+
+spring:
+  application:
+    name: mcp-universal-api-windows-service
+  ai:
+    mcp:
+      server:
+        name: mcp-universal-api-windows-service
+        version: 1.0.0
+        protocol: STREAMABLE
+        type: SYNC
+        instructions: >
+          This MCP server exposes an allowlisted catalog of external HTTP API operations.
+          Discover APIs with listApis, inspect operations with describeApi, then invoke with invokeApi.
+        capabilities:
+          tool: true
+          resource: false
+          prompt: false
+          completion: false
+        streamable-http:
+          mcp-endpoint: /mcp
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      probes:
+        enabled: true
+
+api-catalog:
+  apis:
+    jsonplaceholder:
+      base-url: https://jsonplaceholder.typicode.com
+      auth:
+        type: NONE
+      operations:
+        get-post:
+          description: Read one sample post by numeric id.
+          method: GET
+          path: /posts/{id}
+        list-posts:
+          description: List sample posts, optionally filtered with query parameters.
+          method: GET
+          path: /posts
+        create-post:
+          description: Create a sample post.
+          method: POST
+          path: /posts
