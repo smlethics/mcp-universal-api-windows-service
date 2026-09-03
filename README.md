@@ -1,5 +1,7 @@
 # MCP Universal API Windows Service
 
+[![build](https://github.com/smlethics/mcp-universal-api-windows-service/actions/workflows/build.yml/badge.svg)](https://github.com/smlethics/mcp-universal-api-windows-service/actions/workflows/build.yml)
+
 A reference **Model Context Protocol (MCP) server** built with **Java 21, Spring Boot and Spring AI**. It exposes an allowlisted catalog of external HTTP APIs to MCP-compatible AI clients and includes a documented Windows Service installation using WinSW.
 
 > The goal is not merely to show an MCP “hello world”. The project demonstrates the boundary between an AI-facing MCP contract and real external APIs, with secrets kept server-side and integrations defined by configuration.
