@@ -2,7 +2,9 @@
 
 [![build](https://github.com/smlethics/mcp-universal-api-windows-service/actions/workflows/build.yml/badge.svg)](https://github.com/smlethics/mcp-universal-api-windows-service/actions/workflows/build.yml)
 
-A reference **Model Context Protocol (MCP) server** built with **Java 21, Spring Boot and Spring AI**. It exposes an allowlisted catalog of external HTTP APIs to MCP-compatible AI clients and includes a documented Windows Service installation using WinSW.
+Open-source **Model Context Protocol (MCP) server** by **Salvatore Michele Lombardo / SML Ethics**, built with **Java 21, Spring Boot and Spring AI**. It exposes an allowlisted catalog of external HTTP APIs to MCP-compatible AI clients and includes a documented Windows Service installation using WinSW.
+
+This repository is intended as a practical reference for developers searching for a **Java MCP server**, **Spring AI MCP integration**, secure **REST API to MCP adapter**, or a way to run an MCP server as a **Windows Service**.
 
 > The goal is not merely to show an MCP “hello world”. The project demonstrates the boundary between an AI-facing MCP contract and real external APIs, with secrets kept server-side and integrations defined by configuration.
 
@@ -123,15 +125,23 @@ Read [Security model](docs/04-security.md) before exposing the endpoint over a n
 7. [Troubleshooting](docs/07-troubleshooting.md)
 8. [Extension guide](docs/08-extension-guide.md)
 
-## Repository topics
+## Discoverability topics
 
-Recommended GitHub topics:
+Suggested GitHub topics and search terms:
 
-`mcp`, `model-context-protocol`, `spring-ai`, `spring-boot`, `java`, `java21`, `windows-service`, `winsw`, `powershell`, `rest-api`, `ai-agents`, `mcp-server`, `open-source`
+`mcp`, `model-context-protocol`, `mcp-server`, `java`, `java21`, `spring-ai`, `spring-boot`, `rest-api`, `api-integration`, `ai-agents`, `windows-service`, `winsw`, `powershell`, `cybersecurity`, `open-source`
 
 ## Author
 
-Designed and developed by **Salvatore Michele Lombardo** as a practical reference implementation for developers exploring MCP integrations, API boundaries and reliable Windows deployment. The project is shared openly so that others can study it, adapt it and improve it.
+Designed and developed by **Salvatore Michele Lombardo**, creator of **SML Ethics** and GitHub user **[@smlethics](https://github.com/smlethics)**, as a practical reference implementation for developers exploring MCP integrations, API boundaries and reliable Windows deployment.
+
+- **Author website:** [salvatoremichelelombardo.it](https://www.salvatoremichelelombardo.it/)
+- **Technical article:** [MCP senza magia: server universale API, Java, Spring AI e Windows Service](https://www.salvatoremichelelombardo.it/server-mcp-universale-api-java-spring-ai-servizio-windows/)
+- **GitHub profile:** [github.com/smlethics](https://github.com/smlethics)
+
+## Search keywords
+
+Salvatore Michele Lombardo, SML Ethics, MCP server Java, Model Context Protocol Java, Spring AI MCP, Spring Boot MCP, REST API MCP adapter, MCP Windows Service, AI API integration, secure MCP server.
 
 ## License
 
