@@ -116,14 +116,15 @@ Read [Security model](docs/04-security.md) before exposing the endpoint over a n
 
 ## Documentation
 
-1. [What is MCP?](docs/01-what-is-mcp.md)
-2. [Architecture](docs/02-architecture.md)
-3. [API configuration](docs/03-api-configuration.md)
-4. [Security model](docs/04-security.md)
-5. [Windows Service](docs/05-windows-service.md)
-6. [Client connection](docs/06-client-connection.md)
-7. [Troubleshooting](docs/07-troubleshooting.md)
-8. [Extension guide](docs/08-extension-guide.md)
+1. [Public project specifications](docs/SPECIFICATIONS.md)
+2. [What is MCP?](docs/01-what-is-mcp.md)
+3. [Architecture](docs/02-architecture.md)
+4. [API configuration](docs/03-api-configuration.md)
+5. [Security model](docs/04-security.md)
+6. [Windows Service](docs/05-windows-service.md)
+7. [Client connection](docs/06-client-connection.md)
+8. [Troubleshooting](docs/07-troubleshooting.md)
+9. [Extension guide](docs/08-extension-guide.md)
 
 ## Discoverability topics
 
