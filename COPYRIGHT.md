@@ -46,7 +46,9 @@ Where applicable law or a valid agreement assigns particular rights to another p
 
 ## 7. Trademarks and Names
 
-Names, logos, project names, brands and trademarks may be subject to separate rights. A software license does not automatically grant permission to use trademarks, logos, personal names or branding except where expressly stated.
+**SML ETHICS™**, the associated logo, and the motto **“Essere hacker della vita™”** are signs and branding claimed by Salvatore Michele Lombardo to the extent permitted by applicable law and subject to any prior third-party rights. The ™ symbol indicates a trademark or distinctive-sign claim and does not represent a registered trademark. The ® symbol is not used unless and until registration is actually granted.
+
+Names, logos, project names, brands and trademarks belonging to third parties remain subject to their respective rights. A software license does not automatically grant permission to use trademarks, logos, personal names or branding except where expressly stated.
 
 ## 8. No Implied Waiver
 
@@ -61,7 +63,7 @@ If this notice and an applicable open-source license appear to conflict regardin
 ---
 
 Salvatore Michele Lombardo
-SML ETHICS / GLIDERMAN
+SML ETHICS™ / GLIDERMAN
 https://www.salvatoremichelelombardo.it
 
 Last updated: 2026-09-09
